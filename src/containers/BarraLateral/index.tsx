@@ -1,4 +1,4 @@
-import FiltroCard from '../../FiltroCard'
+import FiltroCard from '../../Components/FiltroCard'
 import * as S from './styles'
 
 export default function BarraLateral() {
