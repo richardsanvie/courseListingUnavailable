@@ -5,10 +5,10 @@ import { RootReducer } from '../../store'
 
 const ListaDeTarefas = () => {
   const { itens } = useSelector((state: RootReducer) => state.tarefas)
-
+  const { termo } = useSelector((state: RootReducer) => state.filtro)
   return (
     <Container>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur {termo} adipisicing elit.</p>
       <ul>
         {itens.map((t) => (
           <li key={t.titulo}>

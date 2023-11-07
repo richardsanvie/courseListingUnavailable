@@ -5,4 +5,4 @@ export const Aside = styled.div`
   margin: 10px;
 `
 export const Filtros = styled.div``
-export const Campo = styled.div``
+export const Campo = styled.input``
